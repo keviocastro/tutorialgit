@@ -4,4 +4,4 @@ fetch("https://randomuser.me/api/", {
   method: "GET",
 })
   .then((res) => res.json())
-  .then((json) => console.log("Response persons changed test", json));
+  .then((json) => console.log("json de pessoas", json));
